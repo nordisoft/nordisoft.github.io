@@ -43,7 +43,7 @@
             <v-row no-gutters>
               <v-img
                 :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
-                src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                src="images/Oslo.webp"
               >
                 <v-theme-provider dark>
                   <v-container fill-height>
@@ -53,20 +53,21 @@
                       justify="center"
                     >
                       <v-col class="white--text text-center" cols="12" tag="h1">
-                        <span
-                          :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
-                          class="font-weight-light"
-                        >
-                          WELCOME TO
-                        </span>
-
-                        <br />
 
                         <span
                           :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
                           class="font-weight-black"
                         >
-                          NORDISOFT AS
+                          NORDISOFT
+                        </span>
+
+                        <br />
+
+                        <span
+                          :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
+                          class="font-weight-light"
+                        >
+                          SOFTWARE. METALS. CRYPTO.
                         </span>
                       </v-col>
 
@@ -89,7 +90,7 @@
             <div class="py-12"></div>
 
             <v-container class="text-center">
-              <h2 class="display-2 font-weight-bold mb-3">ABOUT US</h2>
+              <h2 class="display-2 font-weight-bold mb-3">ABOUT</h2>
 
               <v-responsive class="mx-auto mb-8" width="56">
                 <v-divider class="mb-1"></v-divider>
@@ -101,7 +102,7 @@
                 class="mx-auto title font-weight-light mb-8"
                 max-width="720"
               >
-                Nordisoft AS is a Norwegian private company specializing in IT and financial investments. Founded in 2021.
+                Nordisoft AS is a Norwegian private company specializing in software and financial investments. Founded in 2021 by Igor Orlov.
               </v-responsive>
 
               <v-avatar class="elevation-12 mb-12" size="128">
@@ -110,9 +111,9 @@
 
               <div></div>
 
-              <v-btn color="grey" href="https://vuetifyjs.com" outlined large>
+              <v-btn color="grey" href="https://orlov.no" outlined large>
                 <span class="grey--text text--darken-1 font-weight-bold">
-                  Vuetify Documentation
+                  Personal Resume
                 </span>
               </v-btn>
             </v-container>
@@ -124,7 +125,7 @@
             <div class="py-12"></div>
 
             <v-container class="text-center">
-              <h2 class="display-2 font-weight-bold mb-3">VUETIFY FEATURES</h2>
+              <h2 class="display-2 font-weight-bold mb-3">SELECTED INVESTMENTS</h2>
 
               <v-responsive class="mx-auto mb-12" width="56">
                 <v-divider class="mb-1"></v-divider>
@@ -330,29 +331,29 @@
             ],
             features: [
               {
-                icon: "mdi-account-group-outline",
-                title: "Vibrant Community",
+                icon: "mdi-chart-bell-curve-cumulative",
+                title: "Index Funds & Tech Stocks",
                 text:
                   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam",
               },
               {
-                icon: "mdi-update",
-                title: "Frequent Updates",
+                icon: "mdi-bitcoin",
+                title: "Crypto",
                 text:
                   "Sed ut elementum justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.",
               },
               {
                 icon: "mdi-shield-outline",
-                title: "Long-term Support",
+                title: "Metals & Bonds",
                 text:
                   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam",
               },
             ],
             stats: [
-              ["24k", "Github Stars"],
-              ["330+", "Releases"],
-              ["1m", "Downloads/mo"],
-              ["5m", "Total Downloads"],
+              ["66%", "Annual profit"],
+              ["18MNOK", "Assets"],
+              ["3MNOK", "Crypto investments"],
+              ["12+", "Currencies"],
             ],
           };
         },
